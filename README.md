@@ -51,7 +51,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/vishu8844/MyFisrtCloudAppProject
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -71,5 +71,6 @@ npm run start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
+> Copy the Public IP:Port Number into the browser and the Application will be launched!!!
 
 ### I deployed my first Project on AWS 🎉
