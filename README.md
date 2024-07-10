@@ -19,6 +19,7 @@ SECRET_KEY=""
 ```
 npm install
 npm run start
+#used STRIPE API KEYS
 ```
 
 ### Set up an AWS EC2 instance
@@ -30,6 +31,7 @@ npm run start
     - Select an OS image - Ubuntu
     - Create a new key pair & download `.pem` file
     - Instance type - t2.micro
+  
 3. Connecting to the instance using ssh
 ```
 ssh -i instance.pem ubunutu@<IP_ADDRESS>
@@ -69,4 +71,4 @@ npm run start
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
-### Project is deployed on AWS 🎉
+### I deployed my first Project on AWS 🎉
