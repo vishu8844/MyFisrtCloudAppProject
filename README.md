@@ -31,7 +31,8 @@ npm run start
     - Select an OS image - Ubuntu
     - Create a new key pair & download `.pem` file
     - Instance type - t2.micro
-  
+  ![Screenshot 2024-07-09 025503](https://github.com/vishu8844/MyFisrtCloudAppProject/assets/175053368/3b1fefa9-78dd-4205-b336-12c6a877ca98)
+
 3. Connecting to the instance using ssh
 ```
 ssh -i instance.pem ubunutu@<IP_ADDRESS>
